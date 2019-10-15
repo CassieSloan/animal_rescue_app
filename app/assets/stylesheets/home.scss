@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {
+    background-color: orange;
+
+    h1 {
+        font-family: 'Mansalva', cursive;
+        font-size: 8em;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Mansalva', cursive;
+        text-align: center;
+        font-size: 2em;
+
+    }
+
+    div.buttons_group {
+        margin-top: 10%;
+    }
+    
+    button {
+        display: block;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 145, 0);
+        height: 4em;
+        width: 70%;
+        border-radius: 5%;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: 700;
+        font-size: 3em; 
+        text-align: center;
+        }
+        
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        :hover {
+            text-decoration:none; 
+            cursor:pointer;  
+            background-color:rgb(255, 115, 0);
+            }
+        }
+        // @media only screen and (min-width: 768px) {
+        //     /* For desktop: */
+            
+        //   }  
+}
